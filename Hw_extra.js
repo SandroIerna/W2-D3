@@ -11,7 +11,7 @@
  Write a piece of code for checking if, given two integers, the value of one of them is 8 or if their addition or subtraction is equal to 8.
 */
 
-/* let integer1 = 7;
+let integer1 = 7;
 let integer2 = 1;
 let sum = integer1 + integer2;
 if (integer1 >= 8) {
@@ -27,17 +27,15 @@ if (integer1 >= 8) {
     }
   }
 }
-*/
 
 /*EX 3
  Create a variable and assign to it the concatenation of two strings.
 */
 
-/* let string1 = "This is string 1";
+let string1 = "This is string 1";
 let string2 = "This is string 2";
 let string3 = string1 + string2;
 console.log(string3);
-*/
 
 /*EX 4
  Create three variables and assign a numerical value to each one of them. 
@@ -45,7 +43,7 @@ console.log(string3);
  Display the result in the console.
 */
 
-/* let n1 = 1;
+let n1 = 1;
 let n2 = 2;
 let n3 = 3;
 if (n1 > n2 && n1 > n3 && n2 > n3) {
@@ -69,18 +67,15 @@ if (n1 > n2 && n1 > n3 && n2 > n3) {
     }
   }
 }
-*/
 
 /*EX 5
  Write a piece of code for finding the average of two given integers.
 */
 
-/*
 let i1 = 5;
 let i2 = 7;
 let average = (i1 + i2) / 2;
 console.log(average);
-*/
 
 /*EX 6
  Write a piece of code for finding the longest of two given strings.
@@ -108,15 +103,18 @@ if ((check = NaN)) {
  (Ex.: the 20% of 400 is 80)
 */
 
-/*
 let number = 400;
 let percentage = 20;
 let solution = (number * percentage) / 100;
 console.log(solution);
-*/
 
 /*EX 9
  Write a piece of code for checking if a given number is even or odd.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let x = 264;
+if (x % 2 === 0) {
+  console.log("The number is even");
+} else {
+  console.log("The number is odd");
+}
